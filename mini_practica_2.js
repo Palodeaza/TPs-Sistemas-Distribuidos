@@ -42,5 +42,5 @@ async function ListaUsuariosConcurrente(){
    }
 }
 
-//ListaUsuariosSecuencial();
+ListaUsuariosSecuencial();
 ListaUsuariosConcurrente();
