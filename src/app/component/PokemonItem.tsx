@@ -20,11 +20,11 @@ export default function PokemonItem({ name, hp, attack, defense, sprite }: Props
     >
       {sprite && <img src={sprite} alt={name} className="w-20 h-20 mr-4" />}
       <div className="flex flex-col justify-between flex-1">
-       <p><strong className="text-blue-200">Nombre:</strong> {name}</p>
+       <p><strong className="text-blue-500">Nombre:</strong> {name}</p>
        <p><strong className="text-yellow-200"> HP:</strong> {hp}</p>
        <p><strong className="text-red-200"> Attack:</strong> {attack}</p>
        <p><strong className="text-green-200"> Defense:</strong> {defense}</p>
-       <p><strong className="text-white">Veces usado:</strong> {count}</p>
+       <p><strong className="text-blue-500">Veces usado:</strong> {count}</p>
       </div>
     </button>
   );
