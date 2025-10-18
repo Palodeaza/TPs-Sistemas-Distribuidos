@@ -1,3 +1,8 @@
+que onda este texto creo que es una update de next.js???? 
+faltan muchos cambios pero CREO que por ahora funciona.
+
+
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
