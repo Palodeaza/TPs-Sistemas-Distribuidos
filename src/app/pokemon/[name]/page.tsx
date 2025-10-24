@@ -12,7 +12,9 @@ export default async function PokemonDetail({ params }: { params: { name: string
         alt={pokemon.name}
         className="mx-auto w-40 h-40 mb-4"
       />
-      <p><strong>Tipos:</strong> {pokemon.types.map((t: any) => t.type.name).join(", ")}</p>
+      <p><strong>Tipos:</strong> 
+      {pokemon.types.map((t: any) => t.type.name).join(", ")}
+      </p>
       <a href="/" className="text-blue-600 hover:underline mt-4 block">
         ← Volver a la lista
       </a>

@@ -21,7 +21,7 @@ export default function PokemonList() {
   });
 
   if (isLoading) return <LoadingSkeleton />;
-  if (isError) return <p className="text-red-600">Error al cargar los Pokémons</p>;
+  if (isError) return <p className="text-red-600">Error al cargar los Pokémons. Intente más tarde</p>;
 
   return (
     <div>
