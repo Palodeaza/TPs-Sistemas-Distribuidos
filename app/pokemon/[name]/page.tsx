@@ -11,7 +11,7 @@ export default async function PokemonDetailPage({ params }: Props) {
   const pokemon = res.data;
 
   return (
-    <div className="max-w-md mx-auto bg-white p-6 rounded-xl shadow-md text-center">
+    <div className="max-w-md mx-auto bg-black p-6 rounded-xl shadow-md text-center">
       <h2 className="text-2xl font-bold capitalize mb-4">{pokemon.name}</h2>
 
       <img
