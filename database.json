@@ -1,0 +1,13 @@
+[
+  {
+    "id": 3,
+    "name": "venusaur",
+    "base_experience": 236,
+    "height": 20,
+    "weight": 1000,
+    "order": 3,
+    "type1_name": "grass",
+    "isFavorite": false,
+    "createdAt": "2025-10-29T23:04:14.864Z"
+  }
+]
