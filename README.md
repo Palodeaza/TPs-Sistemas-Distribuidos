@@ -7,6 +7,8 @@
 
   - actividad4
 
-  - actividad5 (sin terminar)
+  - actividad5 
 
-  - actividad6 (sin terminar)
+  - actividad6 
+
+  - actividad7 
