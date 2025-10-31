@@ -64,7 +64,7 @@ export default function PokemonItem({ id, name, isFavorite = false }: Props) {
         {isLoading || addMutation.isPending || removeMutation.isPending
           ? "Procesando..."
           : favorito
-          ? "⭐ Quitar de favoritos"
+          ? " Quitar de favoritos"
           : "☆ Agregar a favoritos"}
       </button>
 

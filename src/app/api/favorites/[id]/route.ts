@@ -32,7 +32,7 @@ export async function DELETE(_: Request, context: { params: Promise<{ id: string
       );
     }
 
-    await db.update(numId, { isFavorite: false });
+    await db.update(numId, { isFavorite: false }); // y si usara db.delete()?
 
     return NextResponse.json(
       { message: "Pokémon eliminado de favoritos correctamente.", id: numId },
