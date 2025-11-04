@@ -32,8 +32,10 @@ export async function DELETE(_: Request, context: { params: Promise<{ id: string
       );
     }
 
-    await db.update(numId, { isFavorite: false }); // y si usara db.delete()?
+    //await db.update(numId, { isFavorite: false }); // LE SETEA ESTO EN FALSO, NO LO BORRA!!!!!
 
+    await db.delete(numId);
+    
     return NextResponse.json(
       { message: "Pokémon eliminado de favoritos correctamente.", id: numId },
       { status: 200 }
